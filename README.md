@@ -2,6 +2,8 @@
 
 A GUI RPG game created using the [SWING](https://en.wikipedia.org/wiki/Swing_(Java)) framework
 
+![](https://github.com/ziadhorat/Avaj-launcher/workflows/Test/badge.svg)
+
 The [Marking Sheet](https://github.com/ziadhorat/Swingy/blob/master/documentation/swingy.markingsheet.pdf) we are marked against.
 
 ## About

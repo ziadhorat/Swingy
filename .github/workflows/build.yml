@@ -1,4 +1,4 @@
-name: Test
+name: Build
 
 on:
   push:
@@ -15,7 +15,7 @@ on:
         default: 'warning'
 
 jobs:
-  test:
+  build:
     name: Build
     runs-on: ubuntu-latest
     steps:
