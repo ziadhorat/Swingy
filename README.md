@@ -20,4 +20,6 @@ Swingy is a RPG game created using the SWING(Java) framework, within it you can 
 
 ## Usage
 
-[TODO]
+Compile: `mvn clean package`
+
+Run: `java -jar target/swingy.jar [gui/console]`
