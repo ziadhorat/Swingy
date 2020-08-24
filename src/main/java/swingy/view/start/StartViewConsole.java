@@ -21,7 +21,7 @@ public class StartViewConsole implements StartView {
         System.out.println("CREATE - to create hero");
         System.out.println("SELECT - to select already created hero");
         System.out.println("SWITCH - to switch to GUI view");
-        System.out.println("Commands (CREATE, SELECT, SWITCH):");
+        System.out.println("Commands [CREATE | SELECT | SWITCH]:");
         while (scanner.hasNext()) {
             String input = scanner.nextLine();
 

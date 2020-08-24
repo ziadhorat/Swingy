@@ -29,7 +29,7 @@ public class SelectHeroViewConsole implements SelectHeroView {
         System.out.println("CREATE - to create hero");
         System.out.println("NUMBER - enter number of available hero to see full information");
         System.out.println("SELECT - enter select after entering number");
-        System.out.println("Commands (CREATE, NUMBER, SELECT):");
+        System.out.println("Commands [CREATE | NUMBER | SELECT]:");
         while (scanner.hasNext()) {
             String input = scanner.nextLine();
 

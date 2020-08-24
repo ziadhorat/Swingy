@@ -34,7 +34,7 @@ public class GameViewConsole implements GameView {
 
         System.out.println("NORTH, EAST, SOUTH, WEST - to move to this direction");
         System.out.println("SWITCH - to switch to GUI view");
-        System.out.println("Commands (NORTH, EAST, SOUTH, WEST, SWITCH):");
+        System.out.println("Commands [NORTH | EAST | SOUTH | WEST | SWITCH | MAP]:");
         while (scanner.hasNext()) {
             String input = scanner.nextLine();
 
@@ -93,7 +93,7 @@ public class GameViewConsole implements GameView {
         System.out.println("There is an enemy!");
         System.out.println("FIGHT - to fight with enemy");
         System.out.println("RUN - to run, 50% chance to move to the previous position");
-        System.out.println("Commands (FIGHT, RUN):");
+        System.out.println("Commands [FIGHT | RUN]:");
         while (scanner.hasNext()) {
             String input = scanner.nextLine();
 
@@ -117,7 +117,7 @@ public class GameViewConsole implements GameView {
         System.out.println("Would you like to replace " + replaceMessage + "?");
         System.out.println("LEAVE - to leave your artifact");
         System.out.println("REPLACE - to replace by new artifact");
-        System.out.println("Commands (LEAVE, REPLACE):");
+        System.out.println("Commands [LEAVE | REPLACE]:");
         while (scanner.hasNext()) {
             String input = scanner.nextLine();
 
